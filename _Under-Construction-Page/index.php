@@ -8,6 +8,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="_scripts/custom-modernizr.js?<?php echo time(); ?>"></script>
 	<link rel="stylesheet" href="_css/under-construction-styles.css?<?php echo time(); ?>">	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
 
 </head>
 <body onload="document.forms[0].name.focus();">
