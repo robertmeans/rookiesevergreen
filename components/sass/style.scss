@@ -1,7 +1,8 @@
-@import "eric-meyer-reset";
-@import "clearfix";
+@import "variables-site/variable-site";
+@import "mixins/mixins-master";
 
-@import "variable-site/variable-site";
+@import "base-setup/eric-meyer-reset";
+@import "base-setup/clearfix";
 
 
 @import "base";
