@@ -1,7 +1,9 @@
 body {
-	font-size: 16px;
-	color: #757575;
-	font-family: Calibri, Tahoma, Arial;
+	// font-size: 16px;
+	// color: #757575;
+	color: $color__text-main;
+	// font-family: Calibri, Tahoma, Arial;
+	font-family: $font__main;
 }
 h1, h2, h3, h4, h5 {
 	display: block;
