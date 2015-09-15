@@ -9,6 +9,7 @@
 	<title>Rookies - Batting Cages in Evergreen, Colorado</title>
 	<link rel="stylesheet" href="style.css?<?php echo time(); ?>" type="text/css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -40,27 +41,25 @@
 
 
 
+	<p class="easy-as">Getting started is as easy as...</p>
 
 
 
-
-<div id="accordion">
+	<div id="easy-as">
 
           <div class="container">
             
             <a href="#" class="click no-default">1. Select a membership level and join <i class="fa fa-angle-down"></i></a>
 
 			<div class="expand">
-              <p>Your Search Engine Optimization stragety starts with the big 3 social networking giants and continues all the way into the code of your website.</p>
-              <p>Gone are the days when you could just plop a few keywords into a meta tag in the code of your website and let the search engines do the rest. Today the algorithms search engines use to index your site into their database rely on a number of facets pertaining to your website address and they all ignore the keyword meta tag.</p>
-              <p>The playing field has changed and if you're not keeping up, you're quickly getting left beind. It's an aggressive campaign that needs to be viewed through the perspective of a long term endeavor and not a quick fix. I will draft a course for your business in order to navigate an efficient strategy best suited to draw attention to <em>your</em> site.</p>
+              <p>membership level information</p>
             </div><!-- .expand !-->
           </div><!-- #container -->
 
           <div class="container">
              <a href="#" class="click no-default">2. Obtain your personal building access code <i class="fa fa-angle-down"></i></a>
             <div class="expand">
-              <p>Pricing options are available to suit virtually every budget and project. Let's discuss your idea and outline a plan that works for you.</p>
+              <p>how, when, where</p>
             </div><!-- .expand !-->
           </div><!-- #container2 -->
 
@@ -68,14 +67,11 @@
           <div class="container">
              <a href="#" class="click no-default">3 Book reservations online anytime <i class="fa fa-angle-down"></i></a>
             <div class="expand">
-              <p>Pricing options are available to suit virtually every budget and project. Let's discuss your idea and outline a plan that works for you.</p>
+              <p>Oh boy, you're not going to believe how easy this is. how come you're not at the batting cage already?!</p>
             </div><!-- .expand !-->
           </div><!-- #container2 -->
 
-
-
-
-</div>
+	</div><!-- #easy-as -->
 
 
 

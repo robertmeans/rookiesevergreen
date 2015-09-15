@@ -19,7 +19,7 @@ $(document).ready(function(){
   });
 });
 
-$('#accordion div a').click(function(){
+$('#easy-as div a').click(function(){
     $(this).find('i').toggleClass('fa-angle-down fa-angle-up')
 });
 
