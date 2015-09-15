@@ -4,7 +4,13 @@
 @import "base-setup/eric-meyer-reset";
 @import "base-setup/clearfix";
 
-
-// this is the development branch
 @import "base";
+
+@import "navigation/navigation";
+
+@import "sections/intro";
+
+@import "sections/instructions";
+
+@import "sections/footer";
 
