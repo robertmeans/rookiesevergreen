@@ -1,9 +1,10 @@
 body {
-	// font-size: 16px;
+	@include font-size;
 	// color: #757575;
 	color: $color__text-main;
 	// font-family: Calibri, Tahoma, Arial;
 	font-family: $font__main;
+	// line-height: $font__line-height-body;
 }
 h1, h2, h3, h4, h5 {
 	display: block;
@@ -14,7 +15,7 @@ h1 {
 }
 p {
 	display: block;
-	line-height: 1em;
+	line-height: 1.5em;
 	font-size: 1em;
 	// margin: 1em 0;
 }
