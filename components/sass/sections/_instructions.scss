@@ -1,88 +1,83 @@
 #instructions {
 	background: url(_images/rookies-tile-bkg.jpg) repeat fixed;
-	height: 800px;
 }
-
-/*----- Accordion -----*/
-.accordion, .accordion * {
-	-webkit-box-sizing:border-box; 
-	-moz-box-sizing:border-box; 
-	box-sizing:border-box;
-}
-
-.accordion {
-	overflow: hidden;
-	width: 60%;
-	margin: 0 auto;
-	padding-top: 100px;
-	// box-shadow:0px 1px 3px rgba(0,0,0,0.25);
-	// border-radius:3px;
-	// background:#f7f7f7;
-}
-
-/*----- Section Titles -----*/
-.accordion-section-title {
-	width: 100%;
-	padding: 15px;
-	display: inline-block;
-	border: 1px solid #838383;
-	background: #d3d3d3;
-	transition: all linear 0.15s;
-	/* Type */
-	font-size: 1.200em;
-	// text-shadow:0px 1px 0px #1a1a1a;
-	color: #1d2e65;
-}
-
-.accordion-section-title.active, .accordion-section-title:hover {
-	background: #4c4c4c;
-	color: #fff;
-	/* Type */
-	text-decoration: none;
-}
-
-.accordion-section:last-child .accordion-section-title {
-	// border-bottom: none;
-}
-
-/*----- Section Content -----*/
-.accordion-section-content {
-	padding: 15px;
-	display: none;
-	background: #fff;
-	border-right: 1px solid #838383;
-	border-bottom: 1px solid #838383;
-	border-left: 1px solid #838383;
-}
-
-
-
-
-
-
-
 
 // ---------------------
-#tab1 {
+.instruction-wrap {
+	min-height: 800px;
 	width: 100%;
+	padding-bottom: 30px;
+}
+.easy-as {
+	font-family: 'Courgette', sans-serif;
+	font-size: 1.7em; 
+	color: #212993;
+	display: block;
+	width: 80%;
 	max-width: 800px;
 	margin: 0 auto;
+	padding-top: 150px;
 }
-#accordion {
-	padding-top: 100px;
+#easy-as {
+	box-sizing: border-box;
+	padding-top: 20px;
 	display: block;
-	width: 60%;
+	width: 80%;
+	max-width: 800px;
 	margin: 0 auto;
 }
 .container {
 	// border-top: 1px solid #ccc;
-	position: relative;
+	// position: relative;
+	box-sizing: border-box;
+	display: block;
 	float: left;
 	width: 100%;
 	margin: 2px auto;
 }
+p.membership-level-full {
+	display: block;
+	padding: 30px 30px;
+	margin-top: 30px;
+}
+p.membership-level-left {
+	display: block;
+	float: left;
+	clear: left;
+	width: 130px;
+	padding-left: 30px;
+}
+p.membership-level-right {
+	display: block;
+	float: left;
+	width: 100%;
+	max-width: 570px;
+	clear: right;
+	margin-bottom: 20px;
+}
+.h-bar {
+	display: block;
+	// position: relative;
+	clear: both;
+	margin: 30px auto;
+	padding-top: 30px;
+	width: 85%;
+	height: 10px;
+	border-bottom: 1px solid #c5c5c5;
+}
+.add-resource > .h-bar {
+	display: block;
+	// position: relative;
+	clear: both;
+	margin: 10px auto 25px auto;
+	padding: 0px;
+	width: 85%;
+	height: 10px;
+	border-bottom: 1px solid #c5c5c5;	
+}
 
 div.expand {
+	box-sizing: border-box;
 	width: 100%;
     color: #757575;
     border-bottom: 1px solid #838383;
@@ -90,35 +85,60 @@ div.expand {
     border-right: 1px solid #838383;
     background-color: #fff;
     display: none;
-    position: relative;
+    // position: relative;
     float: left;
     clear: both;
     margin-bottom: 0px;
-    padding: 0 15px 20px 15px;
-    // z-index:-4;
+    // padding: 0 15px 20px 15px;
     p:first-child {
     	margin-top: 20px;
     }
+    p {
+    	margin-left: 15px;
+    	margin-bottom: 20px;
+    }
+    a.join-now-btn {
+    	display: inline-block;
+    	position: relative;
+    	clear: both;
+    	width: 180px;
+    	height: auto;
+    	text-align: center;
+    	padding: 30px 20px;
+    	margin: 50px 0px 30px 50%;
+    	left: -110px;
+    	color: #fff;
+    	text-decoration: none;
+    	background: #d0112b;
+    	border: 1px solid #8b091b;
+    	font-size: 1.8em;
+    	&:hover {
+    		background: #8b091b;
+    	}
+    }
+    h2 {
+    	display: block;
+		margin: 30px 15px 30px 30px;
+		font-size: 1.3em;
+		line-height: 1.3em;
+	}
 }
-div.expand p.seo-strategies {
-	margin-top: 80px;
-}
+
+
+
 a.click {
+	box-sizing: border-box;
 	width: 100%;
 	display: block;
-	position: relative;
 	cursor: pointer;
 	font-size: 1.2em;
-	// float: right;
-	// margin-right: 50px;
 	margin-top: 0px;
-	// margin-bottom: -30px;
-	z-index: 999;
+	padding: 15px 0px;
+	z-index: 10;
 	background: #757575;
 	border: 1px solid #bebebe;
 	color: #fff;
 	line-height: 1em;
-	// padding: 25px;
 	text-decoration: none;
 	-webkit-transition: background-color .3s ease;
 	-moz-transition: background-color .3s ease;
@@ -136,15 +156,49 @@ a.click {
 		// mobile ios - this is what you have
 		// to do to turn off outline
 	}
+	&::before {
+		content: "\00a0\00a0\00a0\00a0";
+	}
 }
 
-#accordion i.fa {
+#easy-as i.fa {
 	float: right;
-	margin-right: 10px;
+	margin-right: 5%;
 }
 html.touch a.click {
 	&:hover {
 		background: #757575;
 		color: #fff;
 	}
+}
+
+.add-resource {
+	box-sizing: border-box;
+	clear: both;	
+	display: block;
+	width: 80%;
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 30px 20px;
+	background: #fff;
+	border: 1px solid #313131;
+	h2 {
+		margin-left: 15px;
+		font-size: 1.3em;
+		line-height: 1.3em;
+	}
+}
+p.full-width {
+	display: block;
+	padding: 20px 15px;
+	// margin-top: 30px;
+}
+p.half {
+	box-sizing: border-box;
+	width: 50%;
+	padding: 25px;
+	float: left;
+}
+.strikethrough {
+	text-decoration: line-through;
 }
