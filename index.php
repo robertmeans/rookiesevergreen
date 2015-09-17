@@ -46,12 +46,12 @@
 <section id="intro">
 	<img src="_images/rookies-logo.png">
 	<h2>Evergreen, Colorado<br>Batting Cages</h2>
-	<nav>
+	<div id="join-book">
 		<ul>
 			<li><a href="#">Join</a></li>
 			<li><a href="#">Book</a></li>
 		</ul>
-	</nav>
+	</div>
 </section><!-- #intro -->
 
 

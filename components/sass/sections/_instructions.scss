@@ -202,3 +202,9 @@ p.half {
 .strikethrough {
 	text-decoration: line-through;
 }
+
+@media screen and (max-width: 460px) {
+	.easy-as {
+	padding-top: 80px;
+}
+}
