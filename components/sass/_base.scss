@@ -7,6 +7,15 @@ body {
 	// line-height: $font__line-height-body;
 	// overflow: hidden;
 }
+
+
+// while the following is neat it conflicts with the
+// transition of expanding boxes
+// @media screen and (max-width: 1280px) {
+// 	body div {
+// 		transition: .6s;
+// 	}
+// }
 h1, h2, h3, h4, h5 {
 	display: block;
 	font-weight: bold;
@@ -31,7 +40,6 @@ p {
 	width: 100%;
 	max-width: 180px;
 }
-
 
 
 
