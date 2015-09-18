@@ -102,33 +102,35 @@ p {
   max-width: 180px;
 }
 
-.back-to-top {
+a.back-to-top {
+  box-sizing: border-box;
   display: none;
   z-index: 1001;
   position: fixed;
-  width: 30px;
+  width: 50px;
   height: 28px;
   bottom: 0px;
   right: 40px;
   text-align: center;
   background-color: rgba(45, 45, 45, 0.6);
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 25px 10px;
   color: #fff;
   text-decoration: none;
   -webkit-border-top-left-radius: 8px;
   -webkit-border-top-right-radius: 8px;
-  -moz-border-radius-topleft: 8px;
-  -moz-border-radius-topright: 8px;
+  -moz-border-radius-top-left: 8px;
+  -moz-border-radius-top-right: 8px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
+  border-bottom: none;
   box-shadow: -4px 4px 3px 0px rgba(50, 50, 50, 0.44);
   transition: background-color .3s ease;
   transition: height .2s ease;
 }
-.back-to-top:hover {
+a.back-to-top:hover {
   background-color: #505050;
   color: #fff;
   text-decoration: none;
@@ -175,6 +177,52 @@ a:hover {
   background-color: #1f5588;
 }
 
+@media screen and (max-width: 460px) {
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 100;
+  }
+  nav ul {
+    margin: 0;
+    width: 100%;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: #313131;
+    width: 48%;
+  }
+  nav ul li:first-child {
+    margin-right: 0;
+    float: left;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+    float: right;
+  }
+
+  a {
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+    background: rgba(250, 250, 250, 0.8);
+    color: #313131;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 2px solid #000;
+  }
+  a:hover {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+}
 #intro {
   background: url(_images/batting-cage-01.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -187,32 +235,30 @@ a:hover {
   text-shadow: -1px 2px 2px black;
 }
 #intro img {
-  border: none;
   width: 50%;
   max-width: 460px;
   display: block;
   margin: 0 auto;
   padding-top: 9%;
 }
-#intro nav {
+#intro #join-book {
   position: relative;
   display: block;
   text-align: center;
-  margin: 10px auto 0px auto;
+  margin: 20px auto 0px auto;
 }
-#intro nav ul {
-  display: block;
-}
-#intro nav ul li {
+#intro #join-book ul li {
+  display: inline-block;
   list-style: none;
 }
-#intro nav ul li:first-child {
+#intro #join-book ul li:first-child {
   margin-right: 15px;
 }
-#intro nav ul li:last-child {
+#intro #join-book ul li:last-child {
   margin-right: 0;
 }
 #intro a {
+  display: inline-block;
   margin: 0 auto;
   padding: 15px 25px;
   font-size: 32px;
@@ -224,6 +270,94 @@ a:hover {
   background: #000;
 }
 
+@media screen and (max-width: 1065px) {
+  #intro img {
+    border: none;
+    width: 75%;
+    max-width: 510px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 145px;
+  }
+}
+@media screen and (max-width: 630px) {
+  #intro img {
+    width: 90%;
+    max-width: 510px;
+    padding-top: 115px;
+  }
+  #intro a {
+    margin: 20px auto 0px auto;
+    padding: 20%;
+    font-size: 38px;
+    line-height: 1em;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  #intro a:hover {
+    background: #000;
+  }
+}
+@media screen and (max-width: 460px) {
+  #intro {
+    height: 600px;
+  }
+  #intro a {
+    box-sizing: border-box;
+    width: 130px;
+    margin: 20px auto 0px auto;
+    padding: 25px 30px;
+    font-size: 30px;
+    line-height: 1em;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  #intro a:hover {
+    background: #000;
+  }
+  #intro img {
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #intro h2 {
+    font-size: 28px;
+  }
+  #intro img {
+    width: 90%;
+    max-width: 510px;
+    padding-top: 50px;
+  }
+  #intro #join-book {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 10px auto 0px auto;
+  }
+  #intro #join-book ul li {
+    list-style: none;
+  }
+  #intro #join-book ul li:first-child {
+    margin-right: 0px;
+  }
+  #intro #join-book ul li:last-child {
+    margin-right: 0;
+  }
+  #intro a {
+    margin: 20px auto 0px auto;
+    padding: 15px 20px;
+    font-size: 35px;
+    line-height: 1em;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  #intro a:hover {
+    background: #000;
+  }
+}
 #instructions {
   background: url(_images/rookies-tile-bkg.jpg) repeat fixed;
 }
@@ -254,6 +388,40 @@ a:hover {
   margin: 0 auto;
 }
 
+.add-resource {
+  box-sizing: border-box;
+  clear: both;
+  display: block;
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background: #fff;
+  border: 1px solid #313131;
+}
+.add-resource h2 {
+  margin-left: 15px;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+p.full-width {
+  display: block;
+  padding: 20px 15px;
+}
+
+p.half {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  padding: 25px;
+  float: left;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
 .container {
   box-sizing: border-box;
   display: block;
@@ -262,27 +430,31 @@ a:hover {
   margin: 2px auto;
 }
 
-p.membership-level-full {
+.membership-level-full {
   display: block;
-  padding: 30px 30px;
-  margin-top: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 p.membership-level-left {
-  display: block;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 25%;
   float: left;
-  clear: left;
-  width: 130px;
-  padding-left: 30px;
+  padding: 10px 20px 10px 20px;
+  text-align: right;
+  font-weight: bold;
+  vertical-align: top;
 }
 
 p.membership-level-right {
-  display: block;
-  float: left;
-  width: 100%;
-  max-width: 570px;
-  clear: right;
-  margin-bottom: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 75%;
+  float: right;
+  padding: 10px 50px 10px 0px;
+  text-align: left;
 }
 
 .h-bar {
@@ -313,17 +485,10 @@ div.expand {
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
   background-color: #fff;
-  display: none;
+  display: block;
   float: left;
   clear: both;
   margin-bottom: 0px;
-}
-div.expand p:first-child {
-  margin-top: 20px;
-}
-div.expand p {
-  margin-left: 15px;
-  margin-bottom: 20px;
 }
 div.expand a.join-now-btn {
   display: inline-block;
@@ -390,39 +555,59 @@ html.touch a.click:hover {
   color: #fff;
 }
 
-.add-resource {
-  box-sizing: border-box;
-  clear: both;
-  display: block;
-  width: 80%;
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 30px 20px;
-  background: #fff;
-  border: 1px solid #313131;
+@media screen and (max-width: 850px) {
+  #easy-as {
+    width: 90%;
+  }
 }
-.add-resource h2 {
-  margin-left: 15px;
-  font-size: 1.3em;
-  line-height: 1.3em;
-}
+@media screen and (max-width: 640px) {
+  .easy-as {
+    font-size: 1.4em;
+    width: 95%;
+    padding-top: 150px;
+  }
 
-p.full-width {
-  display: block;
-  padding: 20px 15px;
-}
+  #easy-as {
+    width: 98%;
+    padding-top: 10px;
+  }
 
-p.half {
-  box-sizing: border-box;
-  width: 50%;
-  padding: 25px;
-  float: left;
+  .add-resource {
+    width: 98%;
+  }
 }
-
-.strikethrough {
-  text-decoration: line-through;
+@media screen and (max-width: 745px) {
+  p.half {
+    width: 100%;
+  }
 }
+@media screen and (max-width: 460px) {
+  .easy-as {
+    padding-top: 80px;
+  }
 
+  a.click {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 430px) {
+  a.click {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  a.click::before {
+    content: "";
+  }
+
+  #easy-as i.fa {
+    float: none;
+    display: block;
+    width: 2em;
+    text-align: center;
+    margin: 10px auto;
+  }
+}
 footer {
   position: relative;
   background: #313131;
@@ -474,7 +659,6 @@ footer .contact-form {
 footer .contact-form form {
   width: 100%;
   max-width: 800px;
-  padding: 0px 15px;
 }
 footer .contact-form label {
   display: block;

@@ -26,6 +26,41 @@
 	max-width: 800px;
 	margin: 0 auto;
 }
+
+
+.add-resource {
+	box-sizing: border-box;
+	clear: both;	
+	display: block;
+	width: 80%;
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 30px 20px;
+	background: #fff;
+	border: 1px solid #313131;
+	h2 {
+		margin-left: 15px;
+		font-size: 1.3em;
+		line-height: 1.3em;
+	}
+}
+p.full-width {
+	display: block;
+	padding: 20px 15px;
+	// margin-top: 30px;
+}
+p.half {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 50%;
+	padding: 25px;
+	float: left;
+}
+.strikethrough {
+	text-decoration: line-through;
+}
+
+
 .container {
 	// border-top: 1px solid #ccc;
 	// position: relative;
@@ -35,29 +70,40 @@
 	width: 100%;
 	margin: 2px auto;
 }
-p.membership-level-full {
+
+.membership-level-full {
 	display: block;
-	padding: 30px 30px;
-	margin-top: 30px;
-}
-p.membership-level-left {
-	display: block;
-	float: left;
-	clear: left;
-	width: 130px;
-	padding-left: 30px;
-}
-p.membership-level-right {
-	display: block;
-	float: left;
+	box-sizing: border-box;
 	width: 100%;
-	max-width: 570px;
-	clear: right;
 	margin-bottom: 20px;
 }
+
+
+
+
+p.membership-level-left {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 25%;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+p.membership-level-right {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 75%;
+	float: right;
+	padding: 10px 50px 10px 0px;
+	text-align: left;
+}
+
+
+
 .h-bar {
 	display: block;
-	// position: relative;
 	clear: both;
 	margin: 30px auto;
 	padding-top: 30px;
@@ -67,7 +113,6 @@ p.membership-level-right {
 }
 .add-resource > .h-bar {
 	display: block;
-	// position: relative;
 	clear: both;
 	margin: 10px auto 25px auto;
 	padding: 0px;
@@ -84,19 +129,20 @@ div.expand {
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
     background-color: #fff;
-    display: none;
+
+
+	// *********************************************
+    display: block;
+	// just for development
+	// change back to none when done
+
+
+
     // position: relative;
     float: left;
     clear: both;
     margin-bottom: 0px;
-    // padding: 0 15px 20px 15px;
-    p:first-child {
-    	margin-top: 20px;
-    }
-    p {
-    	margin-left: 15px;
-    	margin-bottom: 20px;
-    }
+    // padding: 0px 15px 20px 15px;
     a.join-now-btn {
     	display: inline-block;
     	position: relative;
@@ -172,33 +218,55 @@ html.touch a.click {
 	}
 }
 
-.add-resource {
-	box-sizing: border-box;
-	clear: both;	
-	display: block;
-	width: 80%;
-	max-width: 800px;
-	margin: 40px auto;
-	padding: 30px 20px;
-	background: #fff;
-	border: 1px solid #313131;
-	h2 {
-		margin-left: 15px;
-		font-size: 1.3em;
-		line-height: 1.3em;
+@media screen and (max-width: 850px) {
+	#easy-as {
+		width: 90%;
 	}
 }
-p.full-width {
-	display: block;
-	padding: 20px 15px;
-	// margin-top: 30px;
+@media screen and (max-width: 640px) {
+	.easy-as {
+		font-size: 1.4em; 
+		width: 95%;
+		padding-top: 150px;
+	}	
+	#easy-as {
+		width: 98%;
+		padding-top: 10px;
+	}
+	.add-resource {
+		width: 98%;
+	}	
 }
-p.half {
-	box-sizing: border-box;
-	width: 50%;
-	padding: 25px;
-	float: left;
+
+@media screen and (max-width: 745px) {
+	p.half {
+		width: 100%;
+	}
 }
-.strikethrough {
-	text-decoration: line-through;
+
+@media screen and (max-width: 460px) {
+	.easy-as {
+		padding-top: 80px;
+	}
+	a.click {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	a.click {
+		display: inline-block;
+		margin: 0 auto;
+		text-align: center;
+		&::before {
+			content: "";
+		}
+	}
+	#easy-as i.fa {
+		float: none;
+		display: block;
+		width: 2em;
+		text-align: center;
+		margin: 10px auto;
+	}
 }
