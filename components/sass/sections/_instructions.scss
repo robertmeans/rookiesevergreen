@@ -77,7 +77,11 @@ p.half {
 	width: 100%;
 	margin-bottom: 20px;
 }
-
+p.full-text {
+	display: block;
+	width: 90%;
+	margin: 20px auto;
+}
 
 
 
@@ -99,6 +103,25 @@ p.membership-level-right {
 	padding: 10px 50px 10px 0px;
 	text-align: left;
 }
+@media screen and (max-width: 460px) {
+	p.membership-level-left {
+		display: block;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	p.membership-level-right {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+		padding: 10px 10px 20px 10px;
+		border-bottom: 1px dashed #bababa;
+	}
+	p.membership-level-right.no-border {
+		border-bottom: none;
+	}
+}
 
 
 
@@ -109,7 +132,7 @@ p.membership-level-right {
 	padding-top: 30px;
 	width: 85%;
 	height: 10px;
-	border-bottom: 1px solid #c5c5c5;
+	border-bottom: 4px double #c5c5c5;
 }
 .add-resource > .h-bar {
 	display: block;
@@ -132,7 +155,12 @@ div.expand {
 
 
 	// *********************************************
-    display: block;
+
+	display: none;
+
+    // display: block;
+
+
 	// just for development
 	// change back to none when done
 
@@ -144,15 +172,17 @@ div.expand {
     margin-bottom: 0px;
     // padding: 0px 15px 20px 15px;
     a.join-now-btn {
-    	display: inline-block;
-    	position: relative;
+    	display: block;
+    	// position: relative;
+    	float: none;
     	clear: both;
-    	width: 180px;
+    	width: 186px;
     	height: auto;
     	text-align: center;
     	padding: 30px 20px;
-    	margin: 50px 0px 30px 50%;
-    	left: -110px;
+    	margin: 50px auto;
+    	// left: -110px;
+    	line-height: 1em;
     	color: #fff;
     	text-decoration: none;
     	background: #d0112b;
@@ -258,6 +288,7 @@ html.touch a.click {
 		display: inline-block;
 		margin: 0 auto;
 		text-align: center;
+		padding: 15px;
 		&::before {
 			content: "";
 		}
