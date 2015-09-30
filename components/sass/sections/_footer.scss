@@ -29,6 +29,7 @@ footer {
 		font-size: 1.4em;
 		width: 35px;
 		text-align: center;
+		color: #fff;
 	}
 	.location p {
 		color: #fff;
@@ -107,3 +108,13 @@ footer {
 	}
 }
 
+@media screen and (max-width: 1000px) {
+	footer {
+		.contact-form {
+			form {
+				width: 90%;
+				margin: 0 auto;
+			}
+		}
+	}
+}
