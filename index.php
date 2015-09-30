@@ -44,7 +44,7 @@
 </nav>
 
 <section id="intro">
-	<img src="_images/rookies-logo.png">
+	<img src="_images/rookies-logo-02.png">
 	<h2>Evergreen, Colorado<br>Batting Cages</h2>
 	<div id="join-book">
 		<ul>
@@ -121,7 +121,7 @@
 
 	<div class="add-resource cf">
 		<h2>Rookies - Where Hight Altitude Ball Players Come to Train</h2>
-		<p class="full-width">Rookies LLC was established to provide an indoor pitching and hitting facility to the young baseball and softball players of Evergreen and the surrounding area.  Registered members are allowed to reserve time in the tunnels between 6:00am and 11:00pm 7 days a week, including holidays.  The reservations will be made in 1 hour blocks.  We require all members to straighten up their rented tunnel and vacate within the 60 minute time limit.  The training tunnels are equipped with pitching mounds/mats, batting tees, L-screens and pitching machines.  Tunnel 1 measures 14’W x 64’L and Tunnel 2 measures 12’W by 64’.</p>
+		<p class="full-width">Rookies LLC was established to provide an indoor pitching and hitting facility to the young baseball and softball players of Evergreen and the surrounding area.  Registered members are allowed to reserve time in the tunnels between 6:00am and 11:00pm 7 days a week, including holidays.  The reservations will be made in 1 hour blocks.  We require all members to straighten up their rented tunnel and vacate within the 60 minute time limit.  The training tunnels are equipped with pitching mounds/mats, batting tees, L-screens and pitching machines.  Tunnel 1 measures 14’W x 64’L and Tunnel 2 measures 12’W by 61’.</p>
 
 		<span class="h-bar">&nbsp;</span>
 
