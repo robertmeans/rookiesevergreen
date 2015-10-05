@@ -102,6 +102,15 @@ p {
   max-width: 180px;
 }
 
+em {
+  font-weight: bold;
+}
+
+.note {
+  color: red;
+  padding-top: 30px;
+}
+
 a.back-to-top {
   box-sizing: border-box;
   display: none;
@@ -224,9 +233,8 @@ a:hover {
   }
 }
 #intro {
-  background-color: #0f2c52;
-  background-size: cover;
-  height: 900px;
+  background: url(_images/rookies-logo-bkg-02.png) repeat fixed;
+  height: 1080px;
 }
 #intro h2 {
   color: white;
@@ -257,16 +265,19 @@ a:hover {
 #intro #join-book ul li:last-child {
   margin-right: 0;
 }
-#intro a {
+#intro a.reservations {
+  font-family: 'Lato', sans-serif;
+  width: auto;
   display: inline-block;
   margin: 0 auto;
   padding: 15px 25px;
   font-size: 32px;
-  background: rgba(5, 23, 46, 0.7);
+  background: #cf202e;
   color: #fff;
   border: 2px solid #fff;
+  border-radius: 0px 9px 0px 9px;
 }
-#intro a:hover {
+#intro a.reservations:hover {
   background: #05172e;
 }
 

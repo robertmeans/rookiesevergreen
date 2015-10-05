@@ -9,7 +9,7 @@
 	<title>Rookies - Batting Cages in Evergreen, Colorado</title>
 	<link rel="stylesheet" href="style.css?<?php echo time(); ?>" type="text/css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Courgette|Lato' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -48,8 +48,8 @@
 	<h2>Evergreen, Colorado<br>Batting Cages</h2>
 	<div id="join-book">
 		<ul>
-			<li><a href="#">Join</a></li>
-			<li><a href="#">Book</a></li>
+			<li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">schedule<br>now</a></li>
+			<!-- <li><a href="#">Book</a></li> -->
 		</ul>
 	</div>
 </section><!-- #intro -->
@@ -64,7 +64,7 @@
 
           <div class="container">
             
-            <a href="#" class="click no-default">1. Select a membership level and join <i class="fa fa-angle-down"></i></a>
+            <a href="#" class="click no-default">1. Select a membership level and join <i class="fa fa-plus"></i></a>
 
 			<div class="expand">
               <h2>Levels of Membership:</h2>
@@ -80,6 +80,7 @@
 	              <p class="membership-level-left">Double A</p>
 	              <p class="membership-level-right no-border">Rent time as you need it. The cost is $40/hr rental of 1 tunnel.</p>
 				</div>
+				<!-- <p class="full-text note"><em>Note</em>: 1<sup>st</sup> time visitors will need to make reservations at least 24 hours in advance in order to provide time to receive a building access code.</p> -->
               <span class="h-bar">&nbsp;</span>
 
               <h2>Hours of Operation:</h2>
@@ -93,26 +94,25 @@
 	              <p class="membership-level-right no-border">6:00am-4:00pm Monday - Friday<br>
               6:00am-10:00am &amp; 3:00pm-11:00pm Saturday &amp; Sunday</p>
 			  </div>
-              <a href="#" class="join-now-btn no-default">Join Now!</a>
+              <a class="join-now-btn" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">Start Now!</a>
               <!-- these links are creating a horizontal scroll bar. -->
 				
             </div><!-- .expand !-->
           </div><!-- #container -->
 
           <div class="container">
-             <a href="#" class="click no-default">2. Obtain your personal building access code <i class="fa fa-angle-down"></i></a>
+             <a href="#" class="click no-default">2. Obtain your personal building access code <i class="fa fa-plus"></i></a>
             <div class="expand">
               <p class="full-text">Once you have joined you will receive a building access code.</p>
             </div><!-- .expand !-->
           </div><!-- #container -->
 
           <div class="container">
-             <a href="#" class="click no-default">3. Book reservations online anytime <i class="fa fa-angle-down"></i></a>
+             <a href="#" class="click no-default">3. Book reservations online anytime <i class="fa fa-plus"></i></a>
             <div class="expand">
               <p class="full-text">Our automated booking process lets you reserve a time and pay online whenever the mood <span class="strikethrough">strikes</span> (wrong choice of words) - whenever the mood hits!</p>
 
-              <a href="#" class="join-now-btn no-default">Book Now!</a>
-              <!-- these links are creating a horizontal scroll bar. -->
+              <a class="join-now-btn" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">Book Now!</a>
 
             </div><!-- .expand !-->
           </div><!-- #container -->

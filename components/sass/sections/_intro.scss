@@ -1,8 +1,9 @@
 #intro {
-  // background: url(_images/batting-cage.jpg) no-repeat center center fixed;
-  background-color: #0f2c52;
-	background-size: cover;
-	height: 900px;
+  // background: url(_images/rookies-logo-bkg.png) no-repeat center center fixed;
+  background: url(_images/rookies-logo-bkg-02.png) repeat fixed;
+  // background-color: #0f2c52;
+	// background-size: cover;
+	height: 1080px;
 	h2 {
 		color: white;
 		text-align: center;
@@ -37,14 +38,19 @@
 			}
 		}
 	}
-	a {
+	a.reservations {
+    font-family: 'Lato', sans-serif;
+    width: auto;
     display: inline-block;
 		margin: 0 auto;
 		padding: 15px 25px;
 		font-size: 32px;
-		background: rgba(5,23,46,.7);
+		// background: rgba(5,23,46,.7);
+    // background: url(_images/pin-stripe.png) repeat fixed;
+    background: #cf202e;
 		color: #fff;
 		border: 2px solid #fff;
+    border-radius: 0px 9px 0px 9px;
 		&:hover {
 			background: #05172e;
 		}
