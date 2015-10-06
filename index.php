@@ -32,8 +32,9 @@
 	<h2>Evergreen, Colorad<a class="temp-link" href="http://www.rookiesevergreen.com/beta/Rookies-Waiver-and-Rules.pdf" target="_bank">o</a><br>Batting Cages</h2>
 	<div id="join-book">
 		<ul>
-			<li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">book now</a></li>
-			<!-- <li><a href="#">Book</a></li> -->
+			<!-- <li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">book now</a></li> -->
+			<li><a class="reservations no-default" href="#"  onclick='overlay()'>book now</a></li>
+			<div id="waiver-rules" class="modalDialog"></div>
 		</ul>
 	</div>
 </section><!-- #intro -->
@@ -170,6 +171,17 @@
 </footer>
 
 <section id="h-space"></section>
+
+
+
+
+<div id="overlay">
+     <div>
+     Click here to [<a href='#' onclick='overlay()'>close</a>]
+          <p>Content you want the user to see goes here.</p>
+     </div>
+</div>
+
 
 <script src="js/scripts.js?<?php echo time(); ?>"></script>
 <script src="http://localhost:35729/livereload.js"></script>
