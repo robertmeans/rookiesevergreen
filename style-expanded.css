@@ -102,6 +102,15 @@ p {
   max-width: 180px;
 }
 
+em {
+  font-weight: bold;
+}
+
+.note {
+  color: red;
+  margin-top: -20px;
+}
+
 a.back-to-top {
   box-sizing: border-box;
   display: none;
@@ -224,9 +233,8 @@ a:hover {
   }
 }
 #intro {
-  background-color: #0f2c52;
-  background-size: cover;
-  height: 900px;
+  background: url(_images/rookies-logo-bkg-02.png) repeat fixed;
+  height: 1080px;
 }
 #intro h2 {
   color: white;
@@ -257,17 +265,20 @@ a:hover {
 #intro #join-book ul li:last-child {
   margin-right: 0;
 }
-#intro a {
+#intro a.reservations {
+  font-family: 'Lato', sans-serif;
+  width: auto;
   display: inline-block;
   margin: 0 auto;
   padding: 15px 25px;
   font-size: 32px;
-  background: rgba(5, 23, 46, 0.7);
+  background: #cf202e;
   color: #fff;
   border: 2px solid #fff;
+  border-radius: 0px 9px 0px 9px;
 }
-#intro a:hover {
-  background: #05172e;
+#intro a.reservations:hover {
+  background: #62b838;
 }
 
 @media screen and (max-width: 1065px) {
@@ -406,6 +417,11 @@ a:hover {
   line-height: 1.3em;
 }
 
+.ex-sp {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
 p.full-width {
   display: block;
   padding: 20px 15px;
@@ -535,7 +551,7 @@ div.expand a.join-now-btn {
   font-size: 1.8em;
 }
 div.expand a.join-now-btn:hover {
-  background: #8b091b;
+  background: #62b838;
 }
 div.expand h2 {
   display: block;
@@ -744,6 +760,21 @@ footer .contact-form input#send:hover {
 }
 .copyright a:hover {
   text-decoration: underline;
+}
+
+a.temp-link {
+  background: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  width: auto;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+}
+a.temp-link:hover {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1000px) {

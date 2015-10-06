@@ -323,7 +323,7 @@ $(document).ready(function(){
 });
 
 $('#easy-as div a').click(function(){
-    $(this).find('i').toggleClass('fa-angle-down fa-angle-up')
+    $(this).find('i').toggleClass('fa-minus fa-plus')
 });
 
 // stop page from jumping to top when anchor is set to "#"

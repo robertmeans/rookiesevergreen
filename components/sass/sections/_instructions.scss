@@ -44,6 +44,10 @@
 		line-height: 1.3em;
 	}
 }
+.ex-sp {
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
 p.full-width {
 	display: block;
 	padding: 20px 15px;
@@ -188,7 +192,7 @@ div.expand {
     	border: 1px solid #8b091b;
     	font-size: 1.8em;
     	&:hover {
-    		background: #8b091b;
+    		background: #62b838;
     	}
     }
     h2 {

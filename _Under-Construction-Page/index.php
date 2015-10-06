@@ -22,6 +22,8 @@
 </header>
 <section id="left-side">
 
+<h2 class="temp-down">Oops! We are temporarily down while we frantically work out a detail in our system. Please check back soon.</h2>
+
 <h2>Where high altitude ball players come to train!</h2>
 	<ul>
 	<li>Providing Evergreen, CO with an indoor pitching/hitting facility</li>

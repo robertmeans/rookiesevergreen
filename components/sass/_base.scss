@@ -40,7 +40,13 @@ p {
 	width: 100%;
 	max-width: 180px;
 }
-
-
+em {
+	font-weight: bold;
+}
+.note {
+	color: red;
+	margin-top: -20px;
+	// padding-top: 10px;
+}
 
 
