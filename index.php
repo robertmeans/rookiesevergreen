@@ -32,8 +32,26 @@
 	<h2>Evergreen, Colorad<a class="temp-link" href="http://www.rookiesevergreen.com/beta/Rookies-Waiver-and-Rules.pdf" target="_bank">o</a><br>Batting Cages</h2>
 	<div id="join-book">
 		<ul>
-			<li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">book now</a></li>
-			<!-- <li><a href="#">Book</a></li> -->
+			<!-- <li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">book now</a></li> -->
+
+
+
+
+
+
+			
+			<li><a class="reservations" href="#openModal">book now</a>
+
+		<div id="openModal" class="modalDialog">
+			<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<h2>Modal Box</h2>
+				<p>This is a sample modal box that can be created using the powers of CSS3.</p>
+				<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+			</div>
+		</div>
+
+			</li>
 		</ul>
 	</div>
 </section><!-- #intro -->
@@ -170,6 +188,14 @@
 </footer>
 
 <section id="h-space"></section>
+
+
+
+
+
+
+
+
 
 <script src="js/scripts.js?<?php echo time(); ?>"></script>
 <script src="http://localhost:35729/livereload.js"></script>

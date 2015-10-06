@@ -362,10 +362,3 @@ $(window).on('scroll', function () {
           btt.hide();
         }
   }); 
-
-
-
-
-
-
-
