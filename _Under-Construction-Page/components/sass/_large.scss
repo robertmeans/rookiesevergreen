@@ -14,8 +14,15 @@ header h1 {
 h2 {
 	font-size: 1.5em;
 	font-weight: bold;
-	color: #C54A14;
+	color: #005692;
+	// color: #C54A14;	
 }
+h2.temp-down {
+      padding-bottom: 1.5em;
+      border-bottom: 1px solid #d0112b;
+      margin-bottom: 1em;
+      color: #C54A14;	
+    }
 #wrapper img {
 	position: absolute;
 	z-index: 3;
