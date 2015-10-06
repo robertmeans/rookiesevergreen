@@ -108,7 +108,7 @@ em {
 
 .note {
   color: red;
-  padding-top: 30px;
+  margin-top: -20px;
 }
 
 a.back-to-top {
@@ -278,7 +278,7 @@ a:hover {
   border-radius: 0px 9px 0px 9px;
 }
 #intro a.reservations:hover {
-  background: #05172e;
+  background: #62b838;
 }
 
 @media screen and (max-width: 1065px) {
@@ -417,6 +417,11 @@ a:hover {
   line-height: 1.3em;
 }
 
+.ex-sp {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
 p.full-width {
   display: block;
   padding: 20px 15px;
@@ -546,7 +551,7 @@ div.expand a.join-now-btn {
   font-size: 1.8em;
 }
 div.expand a.join-now-btn:hover {
-  background: #8b091b;
+  background: #62b838;
 }
 div.expand h2 {
   display: block;
@@ -755,6 +760,21 @@ footer .contact-form input#send:hover {
 }
 .copyright a:hover {
   text-decoration: underline;
+}
+
+a.temp-link {
+  background: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  width: auto;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+}
+a.temp-link:hover {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1000px) {

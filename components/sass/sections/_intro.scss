@@ -38,6 +38,7 @@
 			}
 		}
 	}
+
 	a.reservations {
     font-family: 'Lato', sans-serif;
     width: auto;
@@ -52,9 +53,12 @@
 		border: 2px solid #fff;
     border-radius: 0px 9px 0px 9px;
 		&:hover {
-			background: #05172e;
+			// background: #05172e;
+      background: #62b838;
 		}
 	}
+
+
 }
 
 @media screen and (max-width: 1065px) {
