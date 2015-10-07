@@ -38,7 +38,20 @@
 			}
 		}
 	}
-
+  a.temp-link {
+    background: inherit;
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    width: auto;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 	a.reservations {
     font-family: 'Lato', sans-serif;
     width: auto;

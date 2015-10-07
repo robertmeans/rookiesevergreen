@@ -265,6 +265,20 @@ a:hover {
 #intro #join-book ul li:last-child {
   margin-right: 0;
 }
+#intro a.temp-link {
+  background: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  width: auto;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+}
+#intro a.temp-link:hover {
+  text-decoration: none;
+}
 #intro a.reservations {
   font-family: 'Lato', sans-serif;
   width: auto;
@@ -678,6 +692,28 @@ footer #map a {
   line-height: 1.5em;
   height: auto;
 }
+footer a.loc {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  color: #fff;
+  cursor: default;
+  background: inherit;
+  display: inline;
+  text-decoration: none;
+}
+footer .overlay {
+  background: transparent;
+  z-index: 10;
+  position: relative;
+  width: 100%;
+  height: 375px;
+  /* iframe height */
+  top: 375px;
+  /* iframe height */
+  margin-top: -375px;
+  /* iframe height */
+}
 footer i.fa {
   display: inline-block;
   margin-right: 15px;
@@ -762,55 +798,174 @@ footer .contact-form input#send:hover {
   text-decoration: underline;
 }
 
-a.temp-link {
-  background: inherit;
-  color: inherit;
-  font-size: inherit;
-  text-decoration: none;
-  width: auto;
-  border: none;
-  padding: 0px;
-  margin: 0px;
-  display: inline;
-}
-a.temp-link:hover {
-  text-decoration: none;
-}
-
 @media screen and (max-width: 1000px) {
   footer .contact-form form {
     width: 90%;
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 660px) {
+  footer a.loc {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: inherit;
+    display: inline;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 480px) {
+  .lg-gone {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sm-gone {
+    display: none;
+  }
+
+  .location {
+    text-align: center;
+    width: 96%;
+    margin: 0 auto;
+  }
+  .location p {
+    box-sizing: border-box;
+    padding: 15px 5px;
+    margin: 5px auto;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #fff;
+  }
+  .location p a {
+    background: none;
+  }
+}
 #overlay {
   visibility: hidden;
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   width: 100%;
   height: 100%;
-  text-align: center;
-  z-index: 1000;
+  text-align: left;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-#overlay div {
-  width: 300px;
-  margin: 100px auto;
+#overlay > .body-txt {
+  position: relative;
+  width: 70%;
+  height: 60%;
+  text-align: left;
+  overflow: scroll;
+  margin: 100px auto 0px;
   background-color: #fff;
   border: 1px solid #000;
   padding: 15px;
-  text-align: center;
+}
+#overlay > .body-txt p {
+  line-height: 1.2em;
+  margin: 1em;
+}
+#overlay > .body-txt ul {
+  margin-left: 2em;
+  list-style: disc;
+}
+#overlay > .body-txt ul li {
+  margin: 1em 0 1em;
+  list-style: disc;
 }
 
-#overlay {
-  visibility: hidden;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  text-align: center;
+#mheader {
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 460px) {
+  #overlay > .body-txt {
+    margin: 15px auto 0px;
+    width: 80%;
+    height: 50%;
+  }
+
+  #mheader {
+    width: 80%;
+  }
+}
+a.modal-print {
+  margin: 0px;
+  padding: 5px 10px;
+  line-height: 1.5em;
+  border: none;
+  display: inline;
+  background: rgba(0, 0, 0, 0.1);
+}
+a.modal-print:hover {
+  background: #313131;
+  color: #fff;
+}
+
+a.modal-close {
+  margin: 0px;
+  padding: 10px;
+  border: none;
+  display: inline;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  right: 20px;
+  top: 5px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px #000;
+}
+
+a.modal-close:hover {
+  background: #d0112b;
+}
+
+a.modal-close-btm {
+  margin: 0px 15px 0px;
+  padding: 10px;
+  border: none;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 460px) {
+  a.modal-close {
+    padding: 10px;
+    border-radius: 50%;
+    box-sizing: content-box;
+  }
+}
+@media screen and (max-width: 550px) {
+  a.modal-close {
+    padding: 10px;
+    border-radius: 50%;
+    box-sizing: default;
+  }
+
+  a.modal-close-btm {
+    margin: 15px auto;
+    display: block;
+  }
+
+  #mheader {
+    padding: 2px 15px;
+    margin: 0px auto;
+  }
 }
