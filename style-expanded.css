@@ -306,7 +306,7 @@ a:hover {
 }
 @media screen and (max-width: 630px) {
   #intro img {
-    width: 90%;
+    width: 75%;
     max-width: 510px;
     padding-top: 45px;
   }
@@ -325,7 +325,7 @@ a:hover {
 }
 @media screen and (max-width: 460px) {
   #intro {
-    height: 600px;
+    height: 750px;
   }
   #intro a {
     box-sizing: border-box;
@@ -697,7 +697,6 @@ footer a.loc {
   margin: 0px;
   border: none;
   color: #fff;
-  cursor: default;
   background: inherit;
   display: inline;
   text-decoration: none;
@@ -968,4 +967,7 @@ a.modal-close-btm {
     padding: 2px 15px;
     margin: 0px auto;
   }
+}
+body.modal-open {
+  overflow: hidden;
 }

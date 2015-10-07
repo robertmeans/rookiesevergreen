@@ -132,3 +132,7 @@ a.modal-close-btm {
     margin: 0px auto;
 }     
 }
+
+body.modal-open {
+    overflow: hidden;
+}

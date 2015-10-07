@@ -16,7 +16,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body id="da-body">
 <div id="top-of-page"></div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -138,7 +138,7 @@
 
 	<div class="location">
 		<p><span class="sm-gone"><i class="fa fa-map-marker"></i></span><a class="loc" tabIndex="-1" href="https://www.google.com/maps/place/27888+Meadow+Dr,+Evergreen,+CO+80439/@39.6366669,-105.3163154,17z/data=!3m1!4b1!4m2!3m1!1s0x876b9e7502759af7:0x7a516115f5565751" target="_blank">27888 Meadow Drive<span class="sm-gone">, </span><br class="lg-gone">Evergreen, CO 80439</a></p>
-		<p><span class="sm-gone"><i class="fa fa-phone-square"></i></span><a class="loc" tabIndex="-1" href="tel:(626)%20253-0449">(626) 253-0449</p>
+		<p><span class="sm-gone"><i class="fa fa-phone-square"></i></span><a class="loc" tabIndex="-1" href="tel:(626)%20253-0449">(626) 253-0449</a></p>
 	</div>
 	<div class="contact-form">
 		
