@@ -16,7 +16,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body id="da-body">
+<body>
 <div id="top-of-page"></div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 

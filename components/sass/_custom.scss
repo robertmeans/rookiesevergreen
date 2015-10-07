@@ -1,5 +1,7 @@
 #overlay {
      visibility: hidden;
+     // display: none;
+     // opacity: 0;
      position: fixed;
      left: 0px;
      top: 0px;
@@ -12,6 +14,7 @@
 
 }
 #overlay > .body-txt {
+
      position: relative;
      width:70%;
      height: 60%;
@@ -133,6 +136,6 @@ a.modal-close-btm {
 }     
 }
 
-body.modal-open {
-    overflow: hidden;
-}
+// body.modal-open {
+//     overflow: hidden;
+// }
