@@ -32,8 +32,8 @@
 	<h2>Evergreen, Colorad<a class="temp-link" href="http://www.rookiesevergreen.com/beta/Rookies-Waiver-and-Rules.pdf" target="_bank">o</a><br>Batting Cages</h2>
 	<div id="join-book">
 		<ul>
-			<!-- <li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">book now</a></li> -->
-			<li><a class="reservations no-default" href="#"  onclick='overlay()'>book now</a></li>
+			<li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">book now</a></li>
+			<!-- <li><a class="reservations no-default" href="#"  onclick='overlay()'>book now</a></li> -->
 			
 		</ul>
 	</div>
@@ -79,7 +79,7 @@
 	              <p class="membership-level-right">6:00am - 11:00pm</p>
               </div>
               
-              <a class="join-now-btn no-default" href="#"  onclick='overlay()'>Book Now!</a>
+              <a class="join-now-btn no-default" href="https://booknow.appointment-plus.com/7qp3lmnc"  onclick='overlay()'>Book Now!</a>
               <!-- these links are creating a horizontal scroll bar. -->
 				
             </div><!-- .expand !-->
@@ -98,7 +98,7 @@
             <div class="expand">
               <p class="full-text ex-sp">Our automated booking process lets you reserve a time and pay online whenever the mood <span class="strikethrough">strikes</span> (wrong choice of words) - whenever the mood hits!</p>
 
-              <a class="join-now-btn no-default" href="#"  onclick='overlay()'>Book Now!</a>
+              <a class="join-now-btn no-default" href="https://booknow.appointment-plus.com/7qp3lmnc"  onclick='overlay()'>Book Now!</a>
 
             </div><!-- .expand !-->
           </div><!-- #container -->
