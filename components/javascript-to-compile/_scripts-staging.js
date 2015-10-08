@@ -364,8 +364,13 @@ $(window).on('scroll', function () {
   }); 
 
 
+function overlay() {
+  el = document.getElementById("overlay");
+  el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible"; 
+}
 
 
-
-
-
+// $('.join-now-btn').click(function() {
+//       $("#da-body").removeClass("modal-open");
+//       $(this).addClass('modal-open');
+// });

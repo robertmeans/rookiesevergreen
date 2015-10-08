@@ -32,8 +32,7 @@
 	<h2>Evergreen, Colorad<a class="temp-link" href="http://www.rookiesevergreen.com/beta/Rookies-Waiver-and-Rules.pdf" target="_bank">o</a><br>Batting Cages</h2>
 	<div id="join-book">
 		<ul>
-			<li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">book now</a></li>
-			<!-- <li><a href="#">Book</a></li> -->
+			<li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc"  onclick='overlay()'>book now</a></li>
 		</ul>
 	</div>
 </section><!-- #intro -->
@@ -78,7 +77,7 @@
 	              <p class="membership-level-right">6:00am - 11:00pm</p>
               </div>
               
-              <a class="join-now-btn" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">Book Now!</a>
+              <a class="join-now-btn no-default" href="https://booknow.appointment-plus.com/7qp3lmnc"  onclick='overlay()'>Book Now!</a>
               <!-- these links are creating a horizontal scroll bar. -->
 				
             </div><!-- .expand !-->
@@ -97,7 +96,7 @@
             <div class="expand">
               <p class="full-text ex-sp">Our automated booking process lets you reserve a time and pay online whenever the mood <span class="strikethrough">strikes</span> (wrong choice of words) - whenever the mood hits!</p>
 
-              <a class="join-now-btn" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">Book Now!</a>
+              <a class="join-now-btn no-default" href="https://booknow.appointment-plus.com/7qp3lmnc"  onclick='overlay()'>Book Now!</a>
 
             </div><!-- .expand !-->
           </div><!-- #container -->
@@ -132,11 +131,12 @@
 </article><!-- #instructions -->
 
 <footer id="contact" class="cf">
+	<div class="overlay" onClick="style.pointerEvents='none'"><!-- prevent wheel zoom over map --></div>
 	<div id="map"></div>
 
 	<div class="location">
-		<p><i class="fa fa-map-marker"></i>27888 Meadow Drive, Evergreen, Colorado 80439</p>
-		<p><i class="fa fa-phone-square"></i>(626) 253-0449</p>
+		<p><span class="sm-gone"><i class="fa fa-map-marker"></i></span><a class="loc" tabIndex="-1" href="https://www.google.com/maps/place/27888+Meadow+Dr,+Evergreen,+CO+80439/@39.6366669,-105.3163154,17z/data=!3m1!4b1!4m2!3m1!1s0x876b9e7502759af7:0x7a516115f5565751" target="_blank">27888 Meadow Drive<span class="sm-gone">, </span><br class="lg-gone">Evergreen, CO 80439</a></p>
+		<p><span class="sm-gone"><i class="fa fa-phone-square"></i></span><a class="loc" tabIndex="-1" href="tel:(626)%20253-0449">(626) 253-0449</a></p>
 	</div>
 	<div class="contact-form">
 		
@@ -170,6 +170,71 @@
 </footer>
 
 <section id="h-space"></section>
+
+<div id="overlay">
+	
+     <div class="body-txt">
+
+     <!-- <a class="modal-close no-default" href='#' onclick='overlay()'>X</a> -->
+     <p><a class="modal-print" href="Rookies-Waiver-and-Rules.pdf" target="_blank">Print</a></p>
+          <h2>Waiver of Liability and Release for the use of Rookies LLC</h2>
+          <p>I, the undersigned participant /parent or legal guardian of the participant
+			recognize and acknowledge that the activities at Rookies, involve risk of serious
+			injury, including permanent disability or death, and serve social and economic
+			losses which might result from participant action, inaction, negligence of others,
+			rules of play, or the condition of the premises or any equipment used there on.  
+			Further, I understand that there may be other risks not known or reasonably
+			foreseeable at this time and that such risks shall be assumed by the undersigned.  
+			In my absence, I authorize the instructor, coach, or owner of Rookies to call for
+			emergency should they be necessary in the case of injury or suspected injury, or
+			during the times that the above named individual is participating in activity at
+			Rookies.  I will accept responsibility for the payment of any and all treatment
+			provided therein including emergency rescue services.</p>
+
+			<p>I certify that the above name is capable of participating safely in the activities at
+			Rookies.  I understand that the owners of Rookies do not provide accident, health,
+			or life insurance coverage for the above named participant during program
+			participation.  I further understand that I am legally responsible for actions of the
+			above named individual including, but not limited to, any damage to private or
+			public property.  I am legally responsible for my own and/or my child’s welfare
+			and actions including personal needs and medical expenses.  I agree to indemnify
+			and hold the owners of Rookies and its representatives harmless from any loss,
+			damage or injury which may result from me or my child’s participation in activities
+			at Rookies.  The release of liability and indemnity applies equally to losses,
+			damages or injuries caused or alleged to be caused in whole or in part by the
+			negligence of the owners of Rookies.  I further agree to release, waive and
+			discharge, and covenant not to sue the owners of Rookies for any claims,
+			demands, or actions whatsoever arising out of any damage, loss or injury incurred
+			on or to me or my child as a result of my participation or my child’s in activities at
+			Rookies.  This release of liability and indemnity applies to me, the undersigned, or
+			my child, as well as any personal representatives, assigns, heirs and next of kin.</p>
+
+
+			<h2>Rookies Rules and Regulations</h2>
+			<ul>
+				<li>If you are registered and have been provided an access code to
+					Rookies, you are individually responsible for any and all persons
+					you allow access into the facility regarding injury, theft or
+					destruction of Rookies property.</li>
+				<li>Youth under age 16 must be accompanied by an adult 18 years of
+					age or older at all times.</li>
+				<li>Only persons age 16 or older are permitted to feed balls into the
+					pitching machines.</li>
+				<li>Batters must always wear a batting helmet when a pitching
+					machine is being used.</li>
+				<li>You must stay behind the safety screen when operating a pitching
+					machine or throwing live batting practice.</li>
+				<li>Individuals not pitching, catching or hitting must remain outside
+					of the netted tunnel.</li>
+				<li>Closed – toe shoes must be worn at all times.</li>
+				<li>No molded baseball/softball cleats or spikes are permitted at any
+					time.</li>
+			</ul>
+ 
+     </div><!-- .body-txt -->
+     <div id="mheader"><p><a class="modal-close-btm no-default" href='#' onclick='overlay()'>Decline</a> <a class="modal-close-btm" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank" onclick='overlay()'>I Agree</a></p></div>
+</div>
+
 
 <script src="js/scripts.js?<?php echo time(); ?>"></script>
 <script src="http://localhost:35729/livereload.js"></script>
