@@ -32,9 +32,7 @@
 	<h2>Evergreen, Colorad<a class="temp-link" href="http://www.rookiesevergreen.com/beta/Rookies-Waiver-and-Rules.pdf" target="_bank">o</a><br>Batting Cages</h2>
 	<div id="join-book">
 		<ul>
-			<li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc" target="_blank">book now</a></li>
-			<!-- <li><a class="reservations no-default" href="#"  onclick='overlay()'>book now</a></li> -->
-			
+			<li><a class="reservations" href="https://booknow.appointment-plus.com/7qp3lmnc"  onclick='overlay()'>book now</a></li>
 		</ul>
 	</div>
 </section><!-- #intro -->
