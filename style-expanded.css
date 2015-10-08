@@ -825,20 +825,21 @@ footer .contact-form input#send:hover {
     display: none;
   }
 
-  .location {
+  footer a.loc {
+    display: block;
     text-align: center;
+    color: #fff;
     width: 96%;
-    margin: 0 auto;
-  }
-  .location p {
+    max-width: 450px;
+    margin: 10px auto;
+    font-size: 1em;
     box-sizing: border-box;
     padding: 15px 5px;
-    margin: 5px auto;
     background: rgba(255, 255, 255, 0.3);
     border: 1px solid #fff;
   }
-  .location p a {
-    background: none;
+  footer a.loc:hover {
+    background: rgba(255, 255, 255, 0.1);
   }
 }
 #overlay {
