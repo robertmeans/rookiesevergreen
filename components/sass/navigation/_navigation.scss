@@ -66,13 +66,14 @@ nav {
 		}
 	}
 	a {	
+		font-size: .9em;
 		box-sizing: border-box;
 		display: block;
 		text-decoration: none;
 		background: rgba(250,250,250,.8);
 		color: #313131;
 		width: 100%;
-		padding: 15px;
+		padding: 10px;
 		border-bottom: 2px solid #000;
 		&:hover {
 			text-decoration: none;
