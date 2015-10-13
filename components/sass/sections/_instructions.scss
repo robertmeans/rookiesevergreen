@@ -7,6 +7,14 @@
 	min-height: 800px;
 	width: 100%;
 	padding-bottom: 30px;
+	img {
+		display: block;
+		box-sizing: border-box;
+		width: 96%;
+		max-width: 1100px;
+		margin: 20px auto 0px auto;
+		border: 1px solid #000;
+	}
 }
 .easy-as {
 	font-family: 'Courgette', sans-serif;
@@ -16,7 +24,7 @@
 	width: 80%;
 	max-width: 800px;
 	margin: 0 auto;
-	padding-top: 150px;
+	padding-top: 60px;
 }
 #easy-as {
 	box-sizing: border-box;
@@ -51,6 +59,27 @@ a.ph {
 		margin-left: 15px;
 		font-size: 1.3em;
 		line-height: 1.3em;
+	}
+	img {
+		display: block;
+		float: left;
+		margin: 0px 15px 15px 0px;
+		padding: 0px;
+		// border: 1px solid #313131;
+		border: none;
+		box-shadow: -3px 3px 5px #aaa;
+		width: 100%;
+		max-width: 200px;
+	}
+}
+@media screen and (max-width: 470px) {
+	.add-resource {
+		img {
+			// float: none;
+			// clear: both;
+			// margin: 0px auto 10px;
+			max-width: 100px;
+		}
 	}
 }
 .ex-sp {
@@ -261,6 +290,9 @@ html.touch a.click {
 }
 
 @media screen and (max-width: 850px) {
+	.easy-as {
+		padding-top: 50px;
+	}
 	#easy-as {
 		width: 90%;
 	}
@@ -269,11 +301,11 @@ html.touch a.click {
 	.easy-as {
 		font-size: 1.4em; 
 		width: 95%;
-		padding-top: 150px;
+		padding-top: 50px;
 	}	
 	#easy-as {
 		width: 98%;
-		padding-top: 10px;
+		padding-top: 20px;
 	}
 	.add-resource {
 		width: 98%;
@@ -288,7 +320,7 @@ html.touch a.click {
 
 @media screen and (max-width: 460px) {
 	.easy-as {
-		padding-top: 80px;
+		padding-top: 20px;
 	}
 	a.click {
 		font-size: 1em;
