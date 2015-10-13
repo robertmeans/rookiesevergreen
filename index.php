@@ -120,13 +120,15 @@
 			Tom's Sandlot - Tom Peterson<br>
 			12150 W. 44<sup>th</sup> Avenue #102<br>
 			Wheat Ridge, CO 80033<br>
-			(303) 883-0474
+			<a class="ph" href="tel:(303)%20883-0474">(303) 883-0474</a>
+			
 		</p>
 		<p class="half">
 			Catalyst Sport LLC<br>
 			15864 W. 6<sup>th</sup> Avenue Service Road<br>
 			Golden, CO 80401<br>
-			(303) 284-2191
+			<a class="ph" href="tel:(303)%20284-2191">(303) 284-2191</a>
+			
 		</p>
 
 	</div><!-- .add-resource -->
