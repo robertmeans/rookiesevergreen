@@ -6,7 +6,7 @@
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="expires" content="0">
 	
-	<title>Rookies - Batting Cages in Evergreen, Colorado</title>
+	<title>Rookies - Pitching/Hitting Facility in Evergreen, Colorado</title>
 	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,7 +34,7 @@
 
 <section id="intro">
 	<img src="_images/rookies-logo-02.png">
-	<h2>Evergreen, Colorad<a class="temp-link" href="http://www.rookiesevergreen.com/beta/Rookies-Waiver-and-Rules.pdf" target="_bank">o</a><br>Batting Cages</h2>
+	<h2>Evergreen, Colorad<a class="temp-link" href="http://www.rookiesevergreen.com/beta/Rookies-Waiver-and-Rules.pdf" target="_bank">o</a><br>Pitching/Hitting Facility</h2>
 	<div id="join-book">
 		<ul>
 			<li><a class="reservations no-default" href="#"  onclick='overlay()'>book now</a></li>
@@ -52,7 +52,7 @@
 
           <div class="container">
             
-            <a href="#" class="click no-default">1. Book time in one of our batting cages <i class="fa fa-plus"></i></a>
+            <a href="#" class="click no-default">1. Book time at our training facility <i class="fa fa-plus"></i></a>
 
 			<div class="expand">
 
@@ -91,7 +91,7 @@
           <div class="container">
              <a href="#" class="click no-default">2. Obtain your personal building access code <i class="fa fa-plus"></i></a>
             <div class="expand">
-              <p class="full-text ex-sp">Within 24 hours of booking your first batting cage rental you will receive your personal building access code that you can use for all your future rentals. Next time you want to book time just visit our site and schedule at your convenience.</p>
+              <p class="full-text ex-sp">Within 24 hours of booking your first facility rental you will receive your personal building access code that you can use for all your future rentals. Next time you want to book time just visit our site and schedule at your convenience.</p>
               <!-- <p class="full-text note">Note: Only your 1st reservation requires this extra step. In the future you will always use the same access code.</p> -->
             </div><!-- .expand !-->
           </div><!-- #container -->
