@@ -45,7 +45,19 @@
 <article id="instructions">
 
 <div class="instruction-wrap cf">
-	<img src="_images/rookies-inside-02.jpg">
+
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="_images/rookies-inside-01.jpg">
+				<p class="flex-caption">Full featured batting and training facility</p>
+			</li>
+			<li>
+				<img src="_images/rookies-inside-02.jpg">
+				<p class="flex-caption">something here.</p>
+			</li>
+		</ul>
+	</div>
 
 	<p class="easy-as">Getting started is as easy as...</p>
 
@@ -90,7 +102,7 @@
           </div><!-- #container -->
 
           <div class="container">
-             <a href="#" class="click no-default">2. Obtain your personal building access code <i class="fa fa-plus"></i></a>
+             <a href="#" class="click no-default">2. Obtain your building access code <i class="fa fa-plus"></i></a>
             <div class="expand">
               <p class="full-text ex-sp">Within 24 hours of booking your first batting cage rental you will receive your personal building access code that you can use for all your future rentals. Next time you want to book time just visit our site and schedule at your convenience.</p>
               <!-- <p class="full-text note">Note: Only your 1st reservation requires this extra step. In the future you will always use the same access code.</p> -->
@@ -243,6 +255,7 @@
 
 
 <script src="js/scripts.js?<?php echo time(); ?>"></script>
+<script src="js/flexslider.js"></script>
 <script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>
