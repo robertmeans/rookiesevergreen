@@ -50,7 +50,7 @@
 		<ul class="slides">
 			<li>
 				<img src="_images/carousel-01.jpg">
-				<p class="flex-caption">Full featured batting and training facility</p>
+				<!-- <p class="flex-caption">Full featured batting and training facility</p> -->
 			</li>
 <!-- 			<li>
 				<img src="_images/carousel-02.jpg">
@@ -58,11 +58,11 @@
 			</li> -->
 			<li>
 				<img src="_images/carousel-03.jpg">
-				<p class="flex-caption">something here.</p>
+				<!-- <p class="flex-caption">something here.</p> -->
 			</li>
 			<li>
 				<img src="_images/carousel-04.jpg">
-				<p class="flex-caption">something here.</p>
+				<!-- <p class="flex-caption">something here.</p> -->
 			</li>
 		</ul>
 	</div>
