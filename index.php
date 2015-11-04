@@ -34,7 +34,7 @@
 
 <section id="intro">
 	<img src="_images/rookies-logo-02.png">
-	<h2>Evergreen, Colorad<a class="temp-link" href="http://www.rookiesevergreen.com/beta/Rookies-Waiver-and-Rules.pdf" target="_bank">o</a><br>Batting Cages</h2>
+	<h2>Evergreen, Colorado<br>Batting Cages</h2>
 	<div id="join-book">
 		<ul>
 			<li><a class="reservations no-default" href="#"  onclick='overlay()'>book now</a></li>
