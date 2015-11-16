@@ -34,7 +34,7 @@
 
 <section id="intro">
 	<img src="_images/rookies-logo-02.png">
-	<h2>Evergreen, Colorado<br>Batting Cages</h2>
+	<h2>Evergreen, Colorado<br>Training Facility</h2>
 	<div id="join-book">
 		<ul>
 			<li><a class="reservations no-default" href="#"  onclick='overlay()'>book now</a></li>
@@ -73,25 +73,25 @@
 
           <div class="container">
             
-            <a href="#" class="click no-default">1. Book time in one of our batting cages <i class="fa fa-plus"></i></a>
+            <a href="#" class="click no-default">1. Book time in one of our cages <i class="fa fa-plus"></i></a>
 
 			<div class="expand">
 
-				<p class="full-text ex-sp">Book time by the hour or purchase one of our discounted package options and save.</p>
+				<p class="full-text ex-sp">Book time by the hour or purchase one of our discounted package options and save. Bookings can be made 90 days in advance.</p>
 
               <h2>Booking Rates:</h2>
 				<div class="membership-level-full cf">
 	              <p class="membership-level-left">10 for $350</p>
-	              <p class="membership-level-right">Buy 10 1 hour sessions and save $50.</p>
+	              <p class="membership-level-right">Buy 10 1 hour sessions and save $100.</p>
 	              <p class="membership-level-right">When you buy a block of 10 sessions your account receives 10 credits that you can use towards future cage rentals at your convenience.</p>
 				</div>
 				<div class="membership-level-full cf">
 	              <p class="membership-level-left">4 for $150</p>
-	              <p class="membership-level-right">Buy 4 1 hour sessions and save $10.</p>
+	              <p class="membership-level-right">Buy 4 1 hour sessions and save $30.</p>
 	              <p class="membership-level-right">When you buy a block of 4 sessions your account receives 4 credits that you can use towards future cage rentals at your convenience.</p>
 				</div>
 				<div class="membership-level-full cf">
-	              <p class="membership-level-left">1 for $40</p>
+	              <p class="membership-level-left">1 for $45</p>
 	              <p class="membership-level-right no-border">This is our base price for cage rentals.</p>
 				</div>
 				
@@ -131,26 +131,8 @@
 
 	<div class="add-resource cf">
 		<h2>Rookies - Where High Altitude Ball Players Come to Train</h2>
-		<p class="full-width"><img src="_images/rookies-inside-02.jpg">Rookies LLC was established to provide an indoor pitching and hitting facility to the young baseball and softball players of Evergreen and the surrounding area.  Registered members are allowed to reserve time in the tunnels between 6:00am and 11:00pm 7 days a week, including holidays.  The reservations will be made in 1 hour blocks.  We require all members to straighten up their rented tunnel and vacate within the 60 minute time limit.  The training tunnels are equipped with pitching mounds/mats, batting tees, L-screens and pitching machines.  Tunnel 1 measures 14’W x 64’L and Tunnel 2 measures 12’W by 61’.</p>
+		<p class="full-width"><img src="_images/rookies-inside-02.jpg">Rookies LLC was established to provide an indoor pitching and hitting facility for the baseball and softball players of Evergreen and the surrounding area.  Registered members are allowed to reserve time in the tunnels between 6:00am and 11:00pm 7 days a week, including holidays.  The reservations will be made in 1 hour blocks.  We require all members to straighten up their rented tunnel and vacate within the 60 minute time limit.  The training tunnels are equipped with pitching mounds/mats, batting tees, L-screens and pitching machines.  Tunnel 1 measures 14’W x 61’L and Tunnel 2 measures 12’W by 61’.</p>
 
-		<span class="h-bar">&nbsp;</span>
-
-		<h2>Additional Resources</h2>
-
-		<p class="half">
-			Tom's Sandlot - Tom Peterson<br>
-			12150 W. 44<sup>th</sup> Avenue #102<br>
-			Wheat Ridge, CO 80033<br>
-			<a class="ph" href="tel:(303)%20883-0474">(303) 883-0474</a>
-			
-		</p>
-		<p class="half">
-			Catalyst Sport LLC<br>
-			15864 W. 6<sup>th</sup> Avenue Service Road<br>
-			Golden, CO 80401<br>
-			<a class="ph" href="tel:(303)%20284-2191">(303) 284-2191</a>
-			
-		</p>
 
 	</div><!-- .add-resource -->
 
