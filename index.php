@@ -6,7 +6,7 @@
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="expires" content="0">
 	
-	<title>Rookies - Pitching/Hitting Facility in Evergreen, Colorado</title>
+	<title>Rookies - Batting Cages in Evergreen, Colorado</title>
 	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,7 +34,7 @@
 
 <section id="intro">
 	<img src="_images/rookies-logo-02.png">
-	<h2>Evergreen, Colorad<a class="temp-link" href="http://www.rookiesevergreen.com/beta/Rookies-Waiver-and-Rules.pdf" target="_bank">o</a><br>Pitching/Hitting Facility</h2>
+	<h2>Evergreen, Colorado<br>Training Facility</h2>
 	<div id="join-book">
 		<ul>
 			<li><a class="reservations no-default" href="#"  onclick='overlay()'>book now</a></li>
@@ -46,31 +46,52 @@
 
 <div class="instruction-wrap cf">
 
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="_images/carousel-01.jpg">
+				<!-- <p class="flex-caption">Full featured batting and training facility</p> -->
+			</li>
+<!-- 			<li>
+				<img src="_images/carousel-02.jpg">
+				<p class="flex-caption">something here.</p>
+			</li> -->
+			<li>
+				<img src="_images/carousel-03.jpg">
+				<!-- <p class="flex-caption">something here.</p> -->
+			</li>
+			<li>
+				<img src="_images/carousel-04.jpg">
+				<!-- <p class="flex-caption">something here.</p> -->
+			</li>
+		</ul>
+	</div>
+
 	<p class="easy-as">Getting started is as easy as...</p>
 
 	<div id="easy-as" class="cf">
 
           <div class="container">
             
-            <a href="#" class="click no-default">1. Book time at our training facility <i class="fa fa-plus"></i></a>
+            <a href="#" class="click no-default">1. Book time in one of our cages <i class="fa fa-plus"></i></a>
 
 			<div class="expand">
 
-				<p class="full-text ex-sp">Book time by the hour or purchase one of our discounted package options and save.</p>
+				<p class="full-text ex-sp">Book time by the hour or purchase one of our discounted package options and save. Bookings can be made 90 days in advance.</p>
 
               <h2>Booking Rates:</h2>
 				<div class="membership-level-full cf">
 	              <p class="membership-level-left">10 for $350</p>
-	              <p class="membership-level-right">Buy 10 1 hour sessions and save $50.</p>
+	              <p class="membership-level-right">Buy 10 1 hour sessions and save $100.</p>
 	              <p class="membership-level-right">When you buy a block of 10 sessions your account receives 10 credits that you can use towards future cage rentals at your convenience.</p>
 				</div>
 				<div class="membership-level-full cf">
 	              <p class="membership-level-left">4 for $150</p>
-	              <p class="membership-level-right">Buy 4 1 hour sessions and save $10.</p>
+	              <p class="membership-level-right">Buy 4 1 hour sessions and save $30.</p>
 	              <p class="membership-level-right">When you buy a block of 4 sessions your account receives 4 credits that you can use towards future cage rentals at your convenience.</p>
 				</div>
 				<div class="membership-level-full cf">
-	              <p class="membership-level-left">1 for $40</p>
+	              <p class="membership-level-left">1 for $45</p>
 	              <p class="membership-level-right no-border">This is our base price for cage rentals.</p>
 				</div>
 				
@@ -89,9 +110,9 @@
           </div><!-- #container -->
 
           <div class="container">
-             <a href="#" class="click no-default">2. Obtain your personal building access code <i class="fa fa-plus"></i></a>
+             <a href="#" class="click no-default">2. Obtain your building access code <i class="fa fa-plus"></i></a>
             <div class="expand">
-              <p class="full-text ex-sp">Within 24 hours of booking your first facility rental you will receive your personal building access code that you can use for all your future rentals. Next time you want to book time just visit our site and schedule at your convenience.</p>
+              <p class="full-text ex-sp">Within 24 hours of booking your first batting cage rental you will receive your personal building access code that you can use for all your future rentals. Next time you want to book time just visit our site and schedule at your convenience.</p>
               <!-- <p class="full-text note">Note: Only your 1st reservation requires this extra step. In the future you will always use the same access code.</p> -->
             </div><!-- .expand !-->
           </div><!-- #container -->
@@ -110,26 +131,8 @@
 
 	<div class="add-resource cf">
 		<h2>Rookies - Where High Altitude Ball Players Come to Train</h2>
-		<p class="full-width">Rookies LLC was established to provide an indoor pitching and hitting facility to the young baseball and softball players of Evergreen and the surrounding area.  Registered members are allowed to reserve time in the tunnels between 6:00am and 11:00pm 7 days a week, including holidays.  The reservations will be made in 1 hour blocks.  We require all members to straighten up their rented tunnel and vacate within the 60 minute time limit.  The training tunnels are equipped with pitching mounds/mats, batting tees, L-screens and pitching machines.  Tunnel 1 measures 14’W x 64’L and Tunnel 2 measures 12’W by 61’.</p>
+		<p class="full-width"><img src="_images/rookies-inside-02.jpg">Rookies LLC was established to provide an indoor pitching and hitting facility for the baseball and softball players of Evergreen and the surrounding area.  Registered members are allowed to reserve time in the tunnels between 6:00am and 11:00pm 7 days a week, including holidays.  The reservations will be made in 1 hour blocks.  We require all members to straighten up their rented tunnel and vacate within the 60 minute time limit.  The training tunnels are equipped with pitching mounds/mats, batting tees, L-screens and pitching machines.  Tunnel 1 measures 14’W x 61’L and Tunnel 2 measures 12’W by 61’.</p>
 
-		<span class="h-bar">&nbsp;</span>
-
-		<h2>Additional Resources</h2>
-
-		<p class="half">
-			Tom's Sandlot - Tom Peterson<br>
-			12150 W. 44<sup>th</sup> Avenue #102<br>
-			Wheat Ridge, CO 80033<br>
-			<a class="ph" href="tel:(303)%20883-0474">(303) 883-0474</a>
-			
-		</p>
-		<p class="half">
-			Catalyst Sport LLC<br>
-			15864 W. 6<sup>th</sup> Avenue Service Road<br>
-			Golden, CO 80401<br>
-			<a class="ph" href="tel:(303)%20284-2191">(303) 284-2191</a>
-			
-		</p>
 
 	</div><!-- .add-resource -->
 
@@ -242,6 +245,7 @@
 
 
 <script src="js/scripts.js?<?php echo time(); ?>"></script>
+<script src="js/flexslider.js"></script>
 <script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>
