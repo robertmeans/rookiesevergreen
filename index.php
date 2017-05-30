@@ -86,12 +86,12 @@
 	              <p class="membership-level-right">When you buy a block of 10 sessions your account receives 10 credits that you can use towards future cage rentals at your convenience.</p>
 				</div>
 				<div class="membership-level-full cf">
-	              <p class="membership-level-left">4 for $150</p>
-	              <p class="membership-level-right">Buy 4 1 hour sessions and save $30.</p>
+	              <p class="membership-level-left">4 for $175</p>
+	              <p class="membership-level-right">Buy 4 1 hour sessions and save $25.</p>
 	              <p class="membership-level-right">When you buy a block of 4 sessions your account receives 4 credits that you can use towards future cage rentals at your convenience.</p>
 				</div>
 				<div class="membership-level-full cf">
-	              <p class="membership-level-left">1 for $45</p>
+	              <p class="membership-level-left">1 for $50</p>
 	              <p class="membership-level-right no-border">This is our base price for cage rentals.</p>
 				</div>
 				
