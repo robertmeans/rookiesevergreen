@@ -139,3 +139,67 @@ a.modal-close-btm {
 // body.modal-open {
 //     overflow: hidden;
 // }
+
+
+
+
+
+button.enable-submit {
+  content: "hey there!";
+}
+
+
+
+
+
+
+button#confirm {
+  float: left;
+  margin-top: 10px;
+  max-width: 300px;
+  padding: 10px 12px;
+  // border-radius: 8px;
+  border: 1px solid #950808;
+  background: #ba2222;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    background: #ba2222;
+    color: #fff;
+    cursor: default;
+  }
+  &:active, &:focus {
+    outline: 0;
+    outline-style: 0;
+  }
+
+}
+
+
+button.enable-submit {
+  display: none;
+}
+button#send {
+  float: left;
+  margin-top: 10px;
+  max-width: 300px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #206311;
+  background: #2cb20c;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    background: #278111;
+    color: #fff;
+  }
+  &:active, &:focus {
+    outline: 0;
+    outline-style: 0;
+  }
+
+}
+
+.display {
+  display: none;
+}
