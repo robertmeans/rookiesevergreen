@@ -10,7 +10,7 @@
 	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=Courgette|Lato' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css?<?php echo time(); ?>" type="text/css">
 
@@ -30,7 +30,7 @@
 <?php include_once("_includes/analyticstracking.php") ?>
 
 <div id="top-of-page"></div>
-<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+<a href="#" class="back-to-top"><i class="fas fa-angle-up"></i></a>
 
 <nav>
 	<ul>
